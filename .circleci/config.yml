@@ -8,14 +8,14 @@ ignoreBranches: &ignoreBranches
     branches:
       ignore:
         - main
-        - circlci-pipeline-setup
+        - circleci-pipeline-setup
 
 
 deployDev: &deployDev
   filters:
     branches:
       only:
-        - circlci-pipeline-setup
+        - circleci-pipeline-setup
 
 deployMain: &deployMain
   filters:
